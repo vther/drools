@@ -1,4 +1,8 @@
-Developing Drools and jBPM
+
+==========================
+
+默认分支改为6.5.x，主要是为了学习drools-examples
+
 ==========================
 
 **If you want to build or contribute to a droolsjbpm project, [read this document](https://github.com/droolsjbpm/droolsjbpm-build-bootstrap/blob/master/README.md).**
