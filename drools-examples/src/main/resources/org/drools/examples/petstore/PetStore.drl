@@ -41,8 +41,8 @@ rule "Explode Cart"
         $item : Purchase() from $order.items
     then
         insert( $item );
-        kcontext.getKnowledgeRuntime().getAgenda().getAgendaGroup( "show items" ).setFocus();
-        kcontext.getKnowledgeRuntime().getAgenda().getAgendaGroup( "evaluate" ).setFocus();
+        kcontext.getKieRuntime().getAgenda().getAgendaGroup( "show items" ).setFocus();
+        kcontext.getKieRuntime().getAgenda().getAgendaGroup( "evaluate" ).setFocus();
 end
 
 
